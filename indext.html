@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Movie Website</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">Movies</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-litem active">Home</li>
+                    <li class="menu-litem">Movies</li>
+                    <li class="menu-litem">Series</li>
+                    <li class="menu-litem">Popular</li>
+                    <li class="menu-litem">Trends</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-pic" src="img/profile1.JPG" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+
+    <div class="container">
+        <div class="content-container">
+            <div class="featur-movie"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg')">
+                <img class="featur-title" src="img/f-t-1.png" alt="">
+                <p class="featur-desc">Follows Django, a gunslinger in the Wild West who is searching for his daughter
+                    who he believes escaped the murder of his family eight years ago. Follows Django, a gunslinger in
+                    the Wild West who is searching for his daughter who he believes escaped the murder of his family
+                    eight years ago.</p>
+                <button class="featur-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/n1.jpg" alt="">
+                            <span class="movie-litem-title">Doctor strange</span>
+                            <p class="movie-litem-desc">Dr strange multiverse of madness</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/n2.jpg" alt="">
+                            <span class="movie-litem-title">K.G.F: Chapter 2</span>
+                            <p class="movie-litem-desc">Kolar Gold Fields (KGF) </p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/n3.jpg" alt="">
+                            <span class="movie-litem-title">Spider-Man:</span>
+                            <p class="movie-litem-desc">Spider-Man: No Way Home </p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/n4.jpg" alt="">
+                            <span class="movie-litem-title">Gangubai</span>
+                            <p class="movie-litem-desc">Gangubai Kathiawadi is a 2022 Indian Hindi-language biographical
+                                crime drama film </p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/n5.jpg" alt="">
+                            <span class="movie-litem-title">The Batman</span>
+                            <p class="movie-litem-desc">The Batman (2022)</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/n6.jpg" alt="">
+                            <span class="movie-litem-title">Radhe Shyam</span>
+                            <p class="movie-litem-desc"> Radhe Shyam 2022 ‧ Romance/Drama </p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/n7.jpg" alt="">
+                            <span class="movie-litem-title">Beast</span>
+                            <p class="movie-litem-desc">Beast 2022 ‧ Action/Dark comedy</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">FAMOUS SERIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/s1.jpg" alt="">
+                            <span class="movie-litem-title">Money Heist</span>
+                            <p class="movie-litem-desc">2017 ‧ Thriller ‧ 5 seasons</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/s2.jpg" alt="">
+                            <span class="movie-litem-title">Moon Knight</span>
+                            <p class="movie-litem-desc">2022 ‧ Action fiction ‧ 1 season</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/s3.jpg" alt="">
+                            <span class="movie-litem-title">Game of Thrones</span>
+                            <p class="movie-litem-desc">Game of Thrones 2011 ‧ Drama ‧ 8 seasons</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/s4.jpg" alt="">
+                            <span class="movie-litem-title">Locke & Key </span>
+                            <p class="movie-litem-desc">Locke & Key 2020 ‧ Drama ‧ 2 seasons</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/s5.jpg" alt="">
+                            <span class="movie-litem-title">Sabrina</span>
+                            <p class="movie-litem-desc">Chilling Adventures of Sabrina 2018 ‧ Drama ‧ 4 seasons</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/s6.jpg" alt="">
+                            <span class="movie-litem-title">Loki</span>
+                            <p class="movie-litem-desc">Loki 2021 ‧ Superhero ‧ 1 season</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/s7.jpg" alt="">
+                            <span class="movie-litem-title">Stranger Things</span>
+                            <p class="movie-litem-desc">Stranger Things 2016 ‧ Horror ‧ 4 seasons</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featur-movie"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg')">
+                <img class="featur-title" src="img/f-t-2.png" alt="">
+                <p class="featur-desc">The story of Dark starts out in the timeline of 2019 and links to events that
+                    occurred in 1986 and 1953. Reports of missing children increase around the town as the investigation
+                    gets heated; the investigation finally starts affecting the lives of all the families that live in
+                    Winden and all the featured timelines.</p>
+                <button class="featur-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">FAMOUS MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/2.jpeg" alt="">
+                            <span class="movie-litem-title">Star Wars</span>
+                            <p class="movie-litem-desc">Star Wars: The Rise of Skywalker (Episode IX)</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/3.jpg" alt="">
+                            <span class="movie-litem-title">Storm</span>
+                            <p class="movie-litem-desc">Storm 2009 ‧ Drama/Thriller ‧ 1h 50m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/4.jpg" alt="">
+                            <span class="movie-litem-title">1917</span>
+                            <p class="movie-litem-desc">1917 - 2019 ‧ War/Drama ‧ 1h 59m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/5.jpg" alt="">
+                            <span class="movie-litem-title">Avengers</span>
+                            <p class="movie-litem-desc">The Avengers 2012 ‧ Adventure/Action ‧ 2h 23m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/6.jpg" alt="">
+                            <span class="movie-litem-title">Rampage</span>
+                            <p class="movie-litem-desc">Rampage 2018 ‧ Action/Sci-fi ‧ 1h 47m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/17.jpg" alt="">
+                            <span class="movie-litem-title">Aquaman</span>
+                            <p class="movie-litem-desc">Aquaman Film series</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/9.jpg" alt="">
+                            <span class="movie-litem-title">Hobbit</span>
+                            <p class="movie-litem-desc">The Hobbit 2012 ‧ Fantasy/Adventure ‧ 2h 49m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">SOUTH MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/g1.jpg" alt="">
+                            <span class="movie-litem-title">Baahubali 1</span>
+                            <p class="movie-litem-desc">Baahubali: The Beginning 2015 ‧ Action/War 2h 38m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/g2.jpg" alt="">
+                            <span class="movie-litem-title">RRR</span>
+                            <p class="movie-litem-desc">RRR U/A 2022 ‧ Action/Drama ‧ 3h 7m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/g3.jpg" alt="">
+                            <span class="movie-litem-title">Baahubali 2</span>
+                            <p class="movie-litem-desc">Baahubali 2: The Conclusion 2017 ‧ Action/Drama 2h 47m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/g4.jpg" alt="">
+                            <span class="movie-litem-title">Pushpa</span>
+                            <p class="movie-litem-desc">Pushpa:The Rise 2021 ‧ Action/Drama ‧ 2h 59m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/g5.jpg" alt="">
+                            <span class="movie-litem-title">Allu Arjun</span>
+                            <p class="movie-litem-desc">Ala Vaikunthapurramuloo 2020 ‧ Action/Drama ‧ 2h 45m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/g6.jpg" alt="">
+                            <span class="movie-litem-title">K.G.F: Chapter 1</span>
+                            <p class="movie-litem-desc">K.G.F: Chapter 1 2018 ‧ Action/Drama ‧ 2h 31m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/g7.jpg" alt="">
+                            <span class="movie-litem-title">Saaho</span>
+                            <p class="movie-litem-desc">Saaho 2019 ‧ Action/Thriller ‧ 2h 30m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featur-movie"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-5.jpeg')">
+                <img class="featur-title" src="img/f-t-3.png" alt="">
+                <p class="featur-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat enim fugit
+                    earum corporis quam itaque minima mollitia explicabo perferendis, deleniti autem distinctio qui
+                    dicta ratione expedita voluptate incidunt et eos.</p>
+                <button class="featur-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">MARVEL CINEMATIC UNIVERSE MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/z1.jpg" alt="">
+                            <span class="movie-litem-title">Avengers Endgame</span>
+                            <p class="movie-litem-desc">Avengers: Endgame 2019 ‧ Action/Sci-fi ‧ 3h 2m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/z2.jpg" alt="">
+                            <span class="movie-litem-title">Spider-Man</span>
+                            <p class="movie-litem-desc">Spider-Man: No Way Home 2021 ‧ Action/Adventure ‧ 2h 28m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/z3.jpg" alt="">
+                            <span class="movie-litem-title">Avengers</span>
+                            <p class="movie-litem-desc">The Avengers 2012 ‧ Adventure/Action ‧ 2h 23m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/z4.jpg" alt="">
+                            <span class="movie-litem-title">Thor: Ragnarok</span>
+                            <p class="movie-litem-desc">Thor: Ragnarok 2017 ‧ Action/Fantasy ‧ 2h 10m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/z5.jpg" alt="">
+                            <span class="movie-litem-title">Captain Marvel</span>
+                            <p class="movie-litem-desc">Captain Marvel Film series</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/z6.jpg" alt="">
+                            <span class="movie-litem-title">Black Widow</span>
+                            <p class="movie-litem-desc">Black Widow 2021 ‧ Action/Adventure ‧ 2h 13m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/z7.jpg" alt="">
+                            <span class="movie-litem-title">Civil War</span>
+                            <p class="movie-litem-desc">Captain America: Civil War 2016 ‧ Action/Adventure ‧ 2h 27m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TOP BOLLYWOOD</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/x1.jpg" alt="">
+                            <span class="movie-litem-title">Bajirao Mastani</span>
+                            <p class="movie-litem-desc">Bajirao Mastani 2015 ‧ Romance/Drama ‧ 2h 38m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/x2.jpg" alt="">
+                            <span class="movie-litem-title">Sooryavanshi</span>
+                            <p class="movie-litem-desc">Sooryavanshi 2021 ‧ Action/Drama ‧ 2h 25m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/x3.jpg" alt="">
+                            <span class="movie-litem-title">Badhaai Do</span>
+                            <p class="movie-litem-desc">Badhaai Do 2022 ‧ Drama ‧ 2h 27m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/x4.jpg" alt="">
+                            <span class="movie-litem-title">Sanju</span>
+                            <p class="movie-litem-desc">Sanju 2018 ‧ Drama/Comedy ‧ 2h 35m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/x5.jpg" alt="">
+                            <span class="movie-litem-title">Baaghi 2 </span>
+                            <p class="movie-litem-desc">Baaghi 2 2018 ‧ Action/Martial Arts ‧ 2h 17m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/x6.jpg" alt="">
+                            <span class="movie-litem-title">PK</span>
+                            <p class="movie-litem-desc">PK 2014 ‧ Romance/Drama ‧ 2h 32m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/x7.jpg" alt="">
+                            <span class="movie-litem-title">Ra.One</span>
+                            <p class="movie-litem-desc">Ra.One 2011 ‧ Sci-fi/Action ‧ 2h 36m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW BOLLYWOOD</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/n4.jpg" alt="">
+                            <span class="movie-litem-title">Gangubai</span>
+                            <p class="movie-litem-desc">Gangubai Kathiawadi is a 2022 Indian Hindi-language biographical crime drama film</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/h2.jpg" alt="">
+                            <span class="movie-litem-title">Shiddat</span>
+                            <p class="movie-litem-desc">Shiddat 2021 ‧ 2h 26m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/h3.jpg" alt="">
+                            <span class="movie-litem-title">Bachchhan Paandey</span>
+                            <p class="movie-litem-desc">Bachchhan Paandey 2022 ‧ Action/Comedy ‧ 2h 26m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/h4.jpg" alt="">
+                            <span class="movie-litem-title">SanamTeriKasam</span>
+                            <p class="movie-litem-desc">Sanam Teri Kasam 2016 ‧ Romance ‧ 2h 34m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/h5.jpg" alt="">
+                            <span class="movie-litem-title">Kesari</span>
+                            <p class="movie-litem-desc">Kesari 2019 ‧ War/Action ‧ 2h 30m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/h6.jpg" alt="">
+                            <span class="movie-litem-title">War</span>
+                            <p class="movie-litem-desc">War 2019 ‧ Action/Thriller ‧ 2h 34m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-litem-img" src="img/h8.jpg" alt="">
+                            <span class="movie-litem-title">83</span>
+                            <p class="movie-litem-desc">83 2021 ‧ Sport/Drama ‧ 2h 45m</p>
+                            <button class="movie-litem-button">WATCh</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
